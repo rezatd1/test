@@ -1,0 +1,270 @@
+@font-face {
+  font-family: 'Yekan Bakh';
+  src: local('Yekan Bakh Bold'), local('Yekan-Bakh-Bold'),
+    url('../public/Fonts/YekanBakh-Bold.woff2') format('woff2'),
+    url('../public/Fonts/YekanBakh-Bold.woff') format('woff'),
+    url('../public/Fonts/YekanBakh-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+* {
+  font-family: 'Yekan Bakh';
+}
+
+.page-1 {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(199, 191, 191);
+}
+
+.color-2 {
+  height: 85%;
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+}
+
+/* .plus-iconsc {
+  height: 3rem;
+} */
+
+.light-background {
+  background-color: lightgrey;
+}
+
+.MuiTreeItem-label {
+  font-family: 'Yekan Bakh' !important;
+}
+
+.custom-bg-2 {
+  background-color: rgb(230, 230, 230);
+}
+
+.custom-style-2 {
+  height: fit-content !important;
+}
+
+.custom-style-3 {
+  height: fit-content !important;
+  display: none;
+}
+
+.custom-style-3 {
+  width: 200px !important;
+}
+
+.custom-style-4 {
+  width: 400px;
+}
+
+.custom-bg-3 {
+  cursor: pointer;
+}
+
+.custom-bg-3:hover {
+  background-color: rgb(228, 227, 227) !important;
+}
+
+.c-s-5 {
+  height: 70vh;
+}
+
+.c-s-3 {
+  overflow-y: auto;
+  max-height: 57vh;
+}
+
+.MuiBreadcrumbs-li {
+  display: flex;
+}
+
+.custom-style-6 {
+  color: rgb(80, 79, 79) !important;
+  font-size: 1.1rem;
+}
+
+.custom-style-7 {
+  font-size: 0.8rem;
+}
+
+.custom-bg-8 {
+  background-color: rgb(214, 211, 211) !important;
+}
+
+.custom-style-8 {
+  height: fit-content !important;
+}
+
+table tr th {
+  border: 1px solid rgb(175, 175, 175);
+  background-color: rgb(224, 222, 215);
+  padding: 0.2rem;
+  border-bottom: 2px solid black;
+}
+
+table tr td {
+  border: 1px solid rgb(175, 175, 175);
+  background-color: white;
+  padding: 0.3rem;
+}
+
+.cfont-2 {
+  font-size: 0.8rem;
+}
+
+.cStyle-1 {
+  border-bottom: 1px solid gray;
+}
+
+.cBG-1 {
+  background-color: #bdbbbb;
+}
+
+.cBG-2 {
+  background-color: #d8d5d5;
+}
+
+.cBorder-1 {
+  border: 1px solid rgb(163, 162, 162);
+}
+
+.productFilm {
+  display: inline-block;
+  height: 2.5rem;
+  transform: scale(2);
+  background-color: #010101;
+  -webkit-border-radius: 3px 4px 4px 3px;
+  -moz-border-radius: 3px 4px 4px 3px;
+  border-radius: 3px 4px 4px 3px;
+  border-left: 1px solid #010101;
+  margin-left: 19px;
+  position: relative;
+  top: 25%;
+  color: white;
+  line-height: 38px;
+  padding: 0 10px 0 10px;
+  z-index: 1;
+  right: 8%;
+
+}
+
+.productFilm:before {
+  content: "";
+  position: absolute;
+  display: block;
+  left: -19px;
+  width: 0;
+  height: inherit;
+  border-top: 19px solid transparent;
+  border-bottom: 19px solid transparent;
+  border-right: 19px solid #010101;
+}
+
+
+.productFilm-parent {
+  height: 5rem;
+}
+
+.productFilm2 {
+  display: inline-block;
+  height: 2.5rem;
+  transform: scale(2);
+  background-color: #DDDDDD;
+  -webkit-border-radius: 3px 4px 4px 3px;
+  -moz-border-radius: 3px 4px 4px 3px;
+  border-radius: 3px 4px 4px 3px;
+  border-left: 1px solid #DDDDDD;
+  margin-left: 19px;
+  position: relative;
+  top: 25%;
+  color: white;
+  line-height: 38px;
+  padding: 0 10px 0 10px;
+  left: 1rem;
+}
+
+.productFilm2:before {
+  content: "";
+  position: absolute;
+  display: block;
+  left: -18px;
+  width: 0;
+  height: inherit;
+  border-top: 19px solid transparent;
+  border-bottom: 19px solid transparent;
+  border-right: 19px solid #DDDDDD;
+}
+
+.productFilm3 {
+  display: inline-block;
+  height: 2.5rem;
+  transform: scale(2);
+  background-color: #DDDDDD;
+  -webkit-border-radius: 3px 4px 4px 3px;
+  -moz-border-radius: 3px 4px 4px 3px;
+  border-radius: 3px 4px 4px 3px;
+  border-left: 1px solid #DDDDDD;
+  margin-left: 19px;
+  position: relative;
+  top: 25%;
+  color: white;
+  line-height: 38px;
+  padding: 0 10px 0 10px;
+  right: 20%;
+}
+
+.cfont-3 {
+  font-size: 0.7rem;
+  z-index: 1;
+}
+
+.cStyle-3 {
+  height: 12rem;
+}
+
+.cBorder-2 {
+  border: 2px dashed grey;
+}
+
+.cStyle-7 {
+  position: relative;
+  bottom: 80%;
+}
+
+.cBG-3 {
+  background-color: #DDDDDD;
+}
+
+.cStyle-2 {
+  transform: rotate(180deg);
+}
+
+.cStyle-4 {
+  transform: rotate(180deg) !important;
+
+}
+
+.cStyle-5 {
+  height: 5rem;
+}
+
+.cBorder-3 {
+  border: 1px solid rgb(179, 178, 178);
+}
+
+.cBG-4 {
+  background-color: #EEEEEE;
+}
+
+.cStyle-6 {
+  width: -webkit-fill-available;
+}
+
+.cStyle-8 {
+  position: absolute;
+  bottom: 1rem;
+  left: 15rem
+}

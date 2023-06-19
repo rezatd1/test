@@ -1,0 +1,19 @@
+@import 'BasicVariables';
+
+.containedButton {
+    @include containedButton
+}
+
+.outlinedButton {
+    @include outlinedButton
+}
+
+.usedStorage {
+    font-family: $fontFamily;
+    padding-left: 0rem;
+
+    .icon {
+        width: 1.5rem;
+        margin-left: 0.7rem
+    }
+}

@@ -1,0 +1,201 @@
+@font-face {
+  font-family: 'Yekan Bakh';
+  src: local('Yekan Bakh Bold'), local('Yekan-Bakh-Bold'),
+    url('../public/Fonts/YekanBakh-Bold.woff2') format('woff2'),
+    url('../public/Fonts/YekanBakh-Bold.woff') format('woff'),
+    url('../public/Fonts/YekanBakh-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+.page-1 {
+  font-family: 'Yekan bakh';
+  width: auto;
+  height: auto;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-1-main-container {
+  background-color: white;
+  width: 100vw;
+  height: 80vh;
+  border-radius: 10px;
+  border: 1px solid grey;
+  box-shadow: 1px 1px #888888a9;
+  padding-right: 0px;
+  padding-right: 0px !important;
+  height: max-content;
+}
+
+
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  padding-right: 1rem !important;
+}
+
+
+
+.product-image img {
+  width: inherit;
+}
+
+.title-container {
+  font-size: 1.4rem;
+}
+
+.des-container {}
+
+.calculate-container {
+  align-items: center;
+}
+
+.circulation-button {
+  width: auto !important;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.circulation {
+  width: auto !important;
+  align-items: baseline;
+}
+
+.input-container {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: nowrap;
+}
+
+.MuiButtonGroup-root {
+  width: inherit;
+  padding: 0px 0px 10px 0px;
+}
+
+.span-container {
+  font-size: 0.8rem;
+}
+
+.span-speed-option {
+  color: rgb(73, 73, 73);
+}
+
+.choice-speed-option {
+  width: max-content;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: inherit;
+}
+
+.side-option-container {
+  background-color: rgb(197, 195, 195);
+  width: auto !important;
+  height: auto;
+  border-radius: 10px;
+  padding: 0.5rem 0rem 0rem 0rem;
+}
+
+.side-option-container h2 {
+  font-size: 0.8rem;
+  color: rgb(63, 62, 62);
+  margin: 0px;
+}
+
+.side-option-container p {
+  font-size: 1.4rem;
+  margin: 0px;
+}
+
+.option-container {
+  align-items: flex-end;
+  padding-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.table {
+  background-color: white;
+}
+
+.size-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.size-container h2 {
+  font-size: 1rem;
+}
+
+.submit-container {
+  display: flex;
+  width: 100%;
+  justify-content: end;
+}
+
+.data-container {
+  padding-right: 0px !important;
+  padding-top: 0.9rem;
+}
+
+.submit-container {
+  padding-bottom: 1rem;
+}
+
+.process-time-container {
+  padding: 0.8rem;
+  background-color: rgb(197, 195, 195);
+  border-radius: 10px;
+}
+
+.entire-table {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.selected-tour-2 {
+  width: fit-content;
+  height: fit-content;
+}
+
+.text-tour-2 {
+  padding-top: 1rem;
+  font-family: 'Yekan bakh';
+}
+
+.active {
+  font-family: 'Yekan bakh';
+
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  padding: 12px;
+  margin: 3px 2px 3px 2px;
+}
+
+.circle-button{
+  border: 0px;
+  border-radius: 5px;
+  padding: 12px;
+  margin: 3px 2px 3px 2px;
+}
+
+
+.skeleton-loader {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: loading 1.5s infinite;
+}
+
+@keyframes loading {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}

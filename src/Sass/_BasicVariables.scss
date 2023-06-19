@@ -1,0 +1,41 @@
+// Colors
+$bgColor: #C7BFBF;
+$folderItem: #525151;
+$fontFamily : 'Yekan Bakh';
+$containedHoverColor: #2e2e2e;
+$outlinedHoverColor: #2e2e2e;
+
+// Button Styles
+@mixin containedButton {
+    color: white;
+    font-family: 'Yekan Bakh';
+    background-color: black;
+    border-color: black;
+
+    .containedButtonIcon {
+        width: 1rem;
+        margin-left: 0.7rem;
+    }
+
+    &:hover {
+        background-color: '#2e2e2e';
+        border-color: $containedHoverColor;
+    }
+}
+
+@mixin outlinedButton {
+    color: black;
+    font-family: $fontFamily;
+    border-color: black;
+
+    .outlinedButtonIcon {
+        color: black;
+        width: 1rem;
+        margin-left: 0.7rem;
+    }
+
+    &:hover {
+        background-color: $outlinedHoverColor;
+        border-color: black;
+    }
+}

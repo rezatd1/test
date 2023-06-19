@@ -1,0 +1,38 @@
+.containedButton {
+  color: white;
+  font-family: "Yekan Bakh";
+  background-color: black;
+  border-color: black;
+}
+.containedButton .containedButtonIcon {
+  width: 1rem;
+  margin-left: 0.7rem;
+}
+.containedButton:hover {
+  background-color: "#2e2e2e";
+  border-color: #2e2e2e;
+}
+
+.outlinedButton {
+  color: black;
+  font-family: "Yekan Bakh";
+  border-color: black;
+}
+.outlinedButton .outlinedButtonIcon {
+  color: black;
+  width: 1rem;
+  margin-left: 0.7rem;
+}
+.outlinedButton:hover {
+  background-color: #2e2e2e;
+  border-color: black;
+}
+
+.usedStorage {
+  font-family: "Yekan Bakh";
+  padding-left: 0rem;
+}
+.usedStorage .icon {
+  width: 1.5rem;
+  margin-left: 0.7rem;
+}/*# sourceMappingURL=Header.css.map */
